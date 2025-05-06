@@ -9,7 +9,7 @@ This project implements a simple C++ multithreaded task scheduler and exposes it
 - GitHub Actions CI workflow
 - Deployable to Google Cloud Run
 
-## How to Use
+
 
 ### 1. Build Docker image
 ```bash
@@ -33,5 +33,4 @@ bash gcloud-deploy.sh
 { "taskId": 1 }
 ```
 
-## License
-MIT
+
