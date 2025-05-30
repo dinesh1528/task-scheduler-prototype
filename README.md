@@ -46,11 +46,6 @@ docker build -t task-scheduler .
 
 docker run -p 8080:8080 task-scheduler
 
-Deploy to Google Cloud Run:
--
-gcloud builds submit --tag gcr.io/YOUR_PROJECT_ID/task-scheduler
-
-gcloud run deploy task-scheduler --image gcr.io/YOUR_PROJECT_ID/task-scheduler --platform managed --region us-central1 --allow-unauthenticated
 
 🗂 Project Structure
 -
